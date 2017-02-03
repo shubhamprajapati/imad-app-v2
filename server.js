@@ -12,10 +12,10 @@ app.get('/', function (req, res) {
 app.get('/article-one', function(req, res){
     res.sendFile('Article one requeseted')
 });
-app.get('/article-one', function(req, res){
-    res.sendFile('Article one requeseted')
-});app.get('/article-one', function(req, res){
-    res.sendFile('Article one requeseted')
+app.get('/article-two', function(req, res){
+    res.sendFile('Article two requeseted')
+});app.get('/article-three', function(req, res){
+    res.sendFile('Article three requeseted')
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
